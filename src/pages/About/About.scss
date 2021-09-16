@@ -1,0 +1,21 @@
+@import '../../variables';
+
+.container {
+    margin: auto;
+    max-width: 40%;
+
+    p {
+        margin-top: 2rem;
+        font-size: large;
+        font-family: $bodyFont;
+        justify-content: center;
+        // text-align: center;
+        color: $secondaryColor;
+    }
+}
+
+h1 {
+    font-family: $titleFont;
+    color: $secondaryColor;
+}
+

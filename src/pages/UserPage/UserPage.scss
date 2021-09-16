@@ -1,0 +1,27 @@
+@import '../../variables';
+
+.container-outer {
+    margin: 20px;
+}
+
+.container-inner {
+    margin: auto;
+    max-width: 70%;
+    max-height: 65%;
+    background-color: lighten($mainColor, 10%);
+    padding: 1rem;
+    border-radius: 12px;
+}
+
+.desc {
+    text-align: left;
+    font-size: 26px;
+    color: $complementaryColor;
+}
+
+.info {
+    font-family: $innerFont;
+    font-size: 22px;
+    color: $complementaryColor;
+    text-align: left;
+}

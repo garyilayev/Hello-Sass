@@ -1,0 +1,40 @@
+@import '../../variables';
+
+.search-field {
+  margin: 20px;
+   input {
+     padding: 10px;
+     font-size: large;
+     border-radius: 5px;
+     width: 40%;
+     border: 0px;
+     height: 30px;
+     color: darken($accentColor, 50%);
+     background-color: $secondaryColor;
+     font-family: $innerFont;
+   }
+}
+
+.user-list {
+    display: flex;
+    text-align: center;
+    flex-wrap: wrap;
+    margin: 20px;
+    justify-content: center;
+    text-align: left;
+}
+
+@media only screen and (max-width:600px){
+    .user-list {
+      flex-direction: column;
+    }
+
+    .search-field {
+      display: flex;
+      width: 350px;
+      input {
+        min-width: 300px;
+      }
+    }
+    
+  }
